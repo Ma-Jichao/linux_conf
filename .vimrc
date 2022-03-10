@@ -1,5 +1,4 @@
-" 设置 vim 为不兼容 vi 模式
-set nocompatible             
+set nocompatible             " 设置 vim 为不兼容 vi 模式
 set showcmd
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\[POS=%l,%v][%p%%]\%{strftime(\"%d/%m/%y\ -\ %H:%M\")}
 set laststatus=2
